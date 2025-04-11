@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 using Spectre.Console;
 
 namespace WordScramble
@@ -24,6 +25,11 @@ namespace WordScramble
         /// </summary>
         public Game()
         {
+           wordProvider = ;
+
+            
+
+            gameStats[0]; 
             // ////////// => TO IMPLEMENT <= //////////// //
         }
 
@@ -105,7 +111,7 @@ namespace WordScramble
             /// <summary>
             /// Checks if the player's guess is correct.
             /// </summary>
-            bool isCorrect = // ////////// => TO IMPLEMENT <= //////////// //
+            bool isCorrect = true;// ////////// => TO IMPLEMENT <= //////////// //
 
             if (isCorrect)
             {
@@ -120,7 +126,7 @@ namespace WordScramble
                 }
 
                 // Add new result at the beginning
-                gameStats[0] = // ////////// => TO IMPLEMENT <= //////////// //
+                gameStats[0] = ;// ////////// => TO IMPLEMENT <= //////////// //
             }
             else
             {
@@ -156,12 +162,12 @@ namespace WordScramble
             {
                 if (gameStats[i] == null)
                 {
-                    // ////////// => TO IMPLEMENT <= //////////// //
+                    float[] gameStats = new float [15]; // ////////// => TO IMPLEMENT <= //////////// //
                 }
-                
                 // Add row to table
                 // Table.AddRow() only accepts strings
-                // ////////// => TO IMPLEMENT <= //////////// //
+                // ////////// => TO IMPLEMENT <= //////////// // 
+                table.AddRow("");
             }
 
             AnsiConsole.Write(table);
