@@ -122,7 +122,7 @@ namespace WordScramble
                 // Shift existing entries
                 for (int i = gameStats.Length - 1; i > 0; i--)
                 {
-                    // ////////// => TO IMPLEMENT <= //////////// //
+                    Console.WriteLine(gameStats);// ////////// => TO IMPLEMENT <= //////////// //
                 }
 
                 // Add new result at the beginning
