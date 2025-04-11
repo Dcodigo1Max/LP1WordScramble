@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks.Dataflow;
 using Humanizer;
 
 namespace WordScramble
@@ -64,6 +65,7 @@ namespace WordScramble
         public string GetRandomWord()
         {
             string[] fileWords = random[];
+            return fileWords[];
             // ////////// => TO IMPLEMENT <= //////////// //
         }
 
@@ -89,7 +91,7 @@ namespace WordScramble
 
                 char temp = ;// ////////// => TO IMPLEMENT <= //////////// //
                 scrambled[i] = ;// ////////// => TO IMPLEMENT <= //////////// //
-                scrambled[j] = new char scrambled;// ////////// => TO IMPLEMENT <= //////////// //
+                scrambled[j] = ;// ////////// => TO IMPLEMENT <= //////////// //
             }
             return new string(scrambled);
         }
