@@ -1,3 +1,5 @@
+using System;
+
 namespace WordScramble
 {
     /// <summary>
@@ -34,7 +36,18 @@ namespace WordScramble
         /// <see cref="double"/> (in seconds).</param>
         public GameResult(string word, double timeTaken)
         {
+            word = ;       
+            TimeTaken = Game.stopwatch.Elapsed.TotalSeconds;
+
+            Console.WriteLine("Crono1: " + elapsedTime1);
             // ////////// => TO IMPLEMENT <= //////////// //
         }
     }
 }
+
+
+        
+
+
+
+        
